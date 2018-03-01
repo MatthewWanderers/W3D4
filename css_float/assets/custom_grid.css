@@ -1,0 +1,16 @@
+/* PUT FLUID GRID CODE HERE */
+.grid {
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.col_1_3{
+  /* float: left; */
+  width: 33.33%;
+}
+
+.col_2_3{
+  /* float: right; */
+  width: 66.6%;
+}
