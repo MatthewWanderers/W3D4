@@ -29,8 +29,7 @@ class Response < ApplicationRecord
 
 
   def sibling_responses
-    self.question.responses.where(self.id != id)
+    self.question.responses.where.not(id: self.id)
   end
-
 
 end
